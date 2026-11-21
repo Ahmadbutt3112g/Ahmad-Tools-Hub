@@ -230,7 +230,7 @@ document.getElementById("form").addEventListener("submit", function(e){
   if (!name || !phone || !svc) return;
   var text = "New Inquiry – Ahmad Tools Hub\n\nName: " + name + "\nWhatsApp: " + phone +
     (mail ? "\nEmail: " + mail : "") + "\nService: " + svc + (msg ? "\nMessage: " + msg : "");
-  // Email delivery to ahmadtoolshub@gmail.com (WhatsApp bhi saath khulta hai)
+  // Email delivery to ahmadtoolshub@gmail.com
   try {
     var useW3 = W3_KEY && W3_KEY.indexOf("PASTE") !== 0;
     var payload, url;
